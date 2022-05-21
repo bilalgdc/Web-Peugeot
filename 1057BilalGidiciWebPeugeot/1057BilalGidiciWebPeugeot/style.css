@@ -1,0 +1,962 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.main
+{
+	padding: 0;
+	width: 95%;
+	margin:5px auto;
+	margin-top: 0;
+}
+
+/*-------------------------------HEADER-------------------------*/
+.modelekleyazi
+{
+    width:300px;
+    height:30px;
+    float:left;
+    color:white;
+    font-size:25px;
+    margin-top:35px;
+    margin-left:30vw;
+}
+
+.yazi
+{
+    width:120px;
+    height:15px;
+    float:left;
+    margin-left:-100px;
+    color:white;
+}
+.indexpanelul li
+{
+    display:block;
+    float:left;
+    margin-left:6vw;
+
+}
+.indexpanelul li a
+{
+    text-decoration:none;
+    color:white;
+}
+.header
+{
+	width: 100%;
+	height: 100px;
+	background-color: #162133;
+	float: left;
+}
+.headerLogo
+{
+	width: 82px;
+    height: 57px;
+	background-image: url("resimler/genel.png");
+	background-position: 0 0;
+	float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.headerUst
+{
+	width:87%; 
+	height:50px;
+	float: left;	
+
+}
+.headerAlt
+{
+	width:87%; 
+	height:50px;
+	float: left;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	list-style: none;
+	animation-name: yukari;
+	animation-duration: 1s;
+}
+.menu li{
+	
+	line-height: 46px;
+}
+.menu li a{
+	width:16%;
+	text-decoration: none;
+	color: white;
+	float: left;
+	display: block;
+	font-size: 12px;
+	font-family: arial;
+	text-align: center;
+}
+.menu li a:hover{
+	color:#007edb;
+	border-bottom:4px solid #007edb;
+}
+.sagUst
+{
+	width: 190px;
+	float: right;
+    margin-right: 5px;
+    margin-top: 9px;
+}
+.sagUstIc
+{
+	width: 100%;
+	height: 10px;
+	float: left;
+	margin-left: 30px;
+}
+.sagUstIc li
+{
+	list-style: none;
+    cursor: pointer;
+	float: left;
+	line-height: 50px;
+	margin-left: 15px;
+	border-right: 1px solid white;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+	
+}
+.sagUstIc li a{
+	background-image: url(resimler/genel.png);
+	background-repeat: no-repeat;
+	padding: 9px 10px;
+	display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.sagUstIc li img
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+/*------------------------------------------Slider*/
+.slider
+{
+	width: 100%;
+	height: 504px; 
+	overflow: hidden;
+	animation-name: kayma;
+	animation-duration: 1s;
+}
+@keyframes kayma{
+	from{
+		margin-left: 1000px;
+	}
+	to{
+		margin-left: 0;
+	}
+}
+@keyframes yukari{
+	from
+	{
+		margin-top: 100px;
+	}
+	to
+	{
+		margin-top: 0;
+	}
+}
+.slider img
+{
+	width: 100%;
+	height: 100%;
+}
+.sliderAlti
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+    border-radius: 100px;
+    line-height: 50px;
+}
+.alt1
+{
+	float: left;
+	text-align: center;
+	text-decoration: none;
+}
+.alt1 a
+{
+	text-decoration: none;
+	display: block;
+    padding: .625rem 1.25rem;
+    height: 36px;
+    text-align: center;
+    font-size: .75rem;
+    color: #3c3947;
+    line-height: 36px;
+    font-family: arial;
+}
+.alt1 a:hover
+{
+	color: #007edb;
+	background-color: #f2eeee;
+}
+
+/*slider2----------*/
+.slider2
+{
+	width: 100%;
+	height: 500px;
+	margin-top: 120px;
+}
+.slider2 img
+{
+	width: 100%;
+	height: 85%;
+}
+.slider3
+{
+	width: 100%;
+	height: 500px;
+	margin-top: 70px;
+}
+.slider3 img
+{
+	width: 100%;
+	height: 85%
+}
+/*Slider 4 dahafazla ------------------------------------------------------*/
+
+.dahafazlayazisi
+{
+	width: 100%;
+	height: 36px;
+	margin-top: 50px;
+}
+.dahafazlayazisi h2
+{
+	color: #3c3947;
+	text-align: center;
+	font-family: arial;
+}
+.daha
+{
+	width: 83%;
+	height: 297px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.oneyazisi
+{
+	width: 100%;
+	height: 36px;
+	margin-top: 50px;
+}
+.oneyazisi h2
+{
+	color: #3c3947;
+	text-align: center;
+	font-family: arial;
+}
+.one
+{
+	width: 900px;
+	height: 317px;
+	margin-left: 17%;
+	margin-top: 20px;
+}
+.oneresim
+{
+	width: 297px;
+	height: 310px;
+	float: left;
+}
+.oneresim:hover
+{
+	border: 3px solid #3b6cbe;
+}
+.oneresim h2
+{
+	color: #3c3947;
+	margin-top: 25px;
+}
+.oneresim a
+{
+	margin:96px ; 
+	text-decoration: none;
+	font-family: verdana;
+	color: darkblue;
+	font-size: 12px;
+}
+.oneresim a:hover
+{
+	color: black;
+}
+/*--------------------------------slider 5 ------------------------------  haber resimi*/
+.haber
+{
+	width: 100%;
+	height: 500px;
+	margin-top: 25px;
+    float:left;
+}
+.haber img
+{
+	width: 100%;
+	height: 85%;
+}
+/*servis resmi------------------------------*/
+.servisyazisi
+{
+	width: 100%;
+	height: 36px;
+	margin-top: 50px;
+    float:left;
+}
+.servisyazisi h2
+{
+	color: #3c3947;
+	text-align: center;
+	font-family: arial;
+
+}
+
+
+.servisresim
+{
+	width: 100%;
+	height: 500px;
+    float:left;
+}
+.servisresim img
+{
+    width: 100%;
+	height: 85%;
+}
+.onecikanbody
+{
+    background-image:url("/resimler/peugeotresim7.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bizarayalimbody
+{
+    background-image:url("/resimler/peugeotresim6.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.modeleklebody
+{
+    background-image:url("/resimler/peugeotresim4.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.btnGeri
+{
+	background-image: url(resimler/genel.png);
+    background-position: -208px -135px;
+    width: 30px;
+    height: 30px;
+    left: 34px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.btnGeri:hover{
+	color: white;
+	opacity: 1;
+}
+.btnIleri
+{
+	background-image: url(resimler/genel.png);
+	background-position: 0 -177px;
+    width: 30px;
+    height: 30px;
+    right: 34px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.btnIleri:hover{
+	color: white;
+	opacity: 1;
+}
+.parla
+{
+	animation-name: anime;
+	animation-duration: 1s;
+}
+@keyframes anime
+{
+	from
+	{
+		opacity: 0.1;
+	}
+	to
+	{
+		opacity: 1.4;
+	}
+}
+
+/*BUTONLARIMIZ......................--------------------------------*/
+
+#Buttonanasayfamodelekle,#ButtonOnay,#Buttononecikananasayfa,#Buttononecikanonay
+{
+    width:100px;
+    height:25px;
+    margin-left:30vw;
+    margin-top:10px;
+    outline:none;
+    border:none;
+}
+#Buttonanasayfamodelekle:hover,#ButtonOnay:hover,#Buttononecikananasayfa:hover,#Buttononecikanonay:hover
+{
+    opacity:0.4;
+    color:darkblue;
+}
+#Buttononecikan
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position:relative;
+    top:-61px;
+    width:100px;
+    height:15px;
+    margin-left:10vw;
+    outline:none;
+    border-radius:2px;
+    font-family:Arial;
+    font-size:11px;
+    cursor:pointer;
+    opacity:0.7;
+}
+#Buttonmodelekle
+{
+    position:relative;
+    top:-28px;
+    width:100px;
+    height:15px;
+    margin-left:10vw;
+    margin-top:2px;
+    border:none;
+    outline:none;
+    border-radius:2px;
+    font-family:Arial;
+    font-size:11px;
+    cursor:pointer;
+    opacity:0.7;
+}
+#Buttonoturumkapat,#Buttongiriskaydol,#Buttonanasayfa
+{
+    position:relative;
+    top:-45px;
+    width:100px;
+    height:15px;
+    margin-left:2vw;
+    margin-top:2px;
+    border:none;
+    outline:none;
+    border-radius:2px;
+    font-family:Arial;
+    font-size:11px;
+    cursor:pointer;
+    opacity:0.7;
+
+}
+#Buttonoturumkapat:hover, #Buttonmodelekle:hover,#Buttongiriskaydol:hover,#Buttononecikan:hover,#Buttonanasayfa:hover
+{
+    opacity:1;
+}
+.butonlar
+{
+	position: absolute;
+	top: 89%;
+	left :45%;	
+}
+
+.buton
+{
+	width: 20px;
+	height: 20px;	
+	border-radius: 20px;
+	background-color: darkgrey;
+	display: inline-block;
+	margin-left: 2px;
+	cursor: pointer;
+}
+.slider22buton
+{
+	width: 125px;
+	height: 40px;
+	background-color: #133d5f;
+	margin-top: 15px;
+	border:none;
+	border-bottom-color: #162133;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+
+}
+.slider22buton:hover
+{
+	background-color: #134d8a;
+	transition: 0.5s;
+}
+.slider33buton
+{
+	width: 125px;
+	height: 40px;
+	background-color: #133d5f;
+	margin-top: 15px;
+	border:none;
+	border-bottom-color: #162133;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+}
+.slider33buton:hover
+{
+	background-color: #134d8a;
+	transition: 0.5s;
+}
+.daha button
+{
+	width: 25%;
+	height: 15%;
+	background-color: #007edb;
+	margin-left: 65px;
+	margin-top: 15px;
+	border:none;
+	cursor: pointer;
+}
+.daha button:hover
+{
+	background-color: #0062c5;
+	transition: 0.5s;
+}
+.onebuton
+{
+	width: 125px;
+	height: 48px;
+	color:white;
+	font-weight: normal;
+	background-color: #007edb;
+	border: none;
+}
+.onebuton:hover
+{
+	background-color: #0062c5;
+	border-radius: 50px;
+	transition: 0.5s;
+	border: 3px solid  lightblue;
+}
+.slider44buton
+{
+	width: 125px;
+	height: 40px;
+	background-color: #133d5f;
+	margin-top: 15px;
+	border:none;
+	border-bottom-color: #162133;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    float:left;
+}
+
+.slider44buton:hover
+{
+	background-color: #134d8a;
+	transition: 0.5s;
+}
+.slider55buton
+{
+	width: 125px;
+	height: 40px;
+	background-color: #133d5f;
+	margin-top: 15px;
+	border:none;
+	border-bottom-color: #162133;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    line-height: 1.2;
+    float:left;
+}
+
+.slider55buton:hover
+{
+	
+background-color: #134d8a;
+	transition: 0.5s;
+}
+/*--------------------------------Foooooter----------------------------------*/
+.footersol
+{
+	margin-top: 30px;
+	width: 45%;
+	height: 60px;
+	background-color: #3c3947;
+	border:none;
+	margin-left: 65px;
+	color: #fff;
+	float:left;
+}
+.footersol:hover
+{
+	background-color: lightblue;
+	border-radius: 50px;
+	transition: 0.5s;
+	border: 3px solid  lightblue;
+
+}
+.footersag
+{
+	margin-top: 30px;
+	width: 45%;
+	height: 60px;
+	background-color:white;
+	border:none;
+    float:left;
+	color: #3c3947;
+}
+.footersag:hover
+{
+	background-color: lightblue;
+	border-radius: 50px;
+	transition: 0.5s;
+	border: 3px solid  lightblue;
+
+}
+.footeralt
+{
+	margin-top: 5px;
+	width: 87%;
+	height: 60px;
+    float:left;
+	background-color:white;
+	border:none;
+	margin-left: 90px;
+	color: #3c3947;
+
+}
+.footeralt:hover
+{
+	background-color: lightblue;
+	border-radius: 50px;
+	transition: 0.5s;
+	border: 3px solid  lightblue;
+}
+
+.footer
+{
+	width: 100%;
+	height: 400px;
+	margin-top: 50px;
+	background-color: #f2eeee;
+    float:left;
+}
+.footerbaslik
+{
+	color: #3c3947;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: arial;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.footeric
+{
+	width: 350px;
+	height: 190px;
+	float: left;
+	margin-left: 50px;
+	list-style: none;
+	font-family: arial;
+	font-size: 12px;		
+	font-weight: normal;
+}
+.footer li
+{
+	margin-top: 15px;
+
+}
+.footer li a:hover
+{
+	color: lightblue;
+}
+.footer li a
+{
+	text-decoration: none;
+	color: black;
+}
+.footericorta
+{
+	width: 350px;
+	height: 190px;
+	float: left;
+	margin-left: 9px;
+}
+.footericsag
+{
+	width: 350px;
+	height: 190px;
+	float: left;
+	margin-left: 9px;
+}
+.footersaglogo
+{
+	width: 350px;
+	height: 70px;
+	margin-top: 30px;
+}
+.saglogoresim
+{
+	margin-left: 2px;
+	width: 85px;
+	height: 70px;
+	float: left;
+	border: 0.1px solid black;
+	cursor: pointer;
+}
+.footersaglogo img
+{
+	width: 30px;
+	height: 30px;
+	padding-left: 26px;
+	padding-top: 20px;
+
+}
+.footerfooter
+{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	float: left;
+
+}
+.footerfooter ul{
+	width: 100%;
+	background-color: red;
+	margin-left: 210px;
+	margin-top: 15px;
+}
+.footerfooter ul li{
+	height: 20px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+	padding-right: 15px;
+	padding-top: 5px;
+	border-right: 1px solid #3c3947;
+}
+.footerfooter ul li a
+{
+	text-decoration: none;
+	color: #3c3947;
+	font-size: 12px;
+	font-family: arial;
+	text-align: center;
+	display: block;
+}
+.footerfooter ul li a:hover{
+	color: #007edb;
+}
+.footeradim
+{
+	width: 100%;
+	height: 25px;
+	background-color: #2c5a5a;
+	margin-top: 50px;
+} 
+
+
+/*---*/
+/*---------------MODELLER-------------*/
+.headerinhemenalti
+{
+    width:100%;
+    height:65%;
+    background-color:rgba(22,33,51,.72);
+    float:left;
+}
+.headerinhemenalti li 
+{
+    list-style:none;
+    float:left;
+    font-size:12px;
+    color:white;
+    margin-top:3px;
+}
+.headerinhemenalti li a
+{
+    text-decoration:none;
+    margin-left:15px;
+    color:white;
+    font-size:12px;
+
+}
+.araclaranadivi
+{
+    width:95%;
+    height:100%;
+    position:relative;
+    top:50px; 
+    margin-left:35px;
+    float:left;
+    padding-left:35px;
+}
+.araclarımızyazisi
+{
+    width:12vw;
+    height:4vw;
+    float:left;
+    font-weight:600;
+    color:grey;
+    font-family:Arial;
+    font-size:30px;
+    margin-top:50px;
+    text-align:center;
+    margin-left:40vw;
+}
+.tablogiris
+{
+    width:35%;
+    height:200px;
+    background-color: #162133;
+    margin-left:32%;
+    border-bottom-left-radius:35px;
+    border-bottom-right-radius:35px;
+    opacity:0.8;
+    float:left;
+}
+.tablogiris td
+{
+    color:white;
+    
+}
+ .tablogiris table
+{
+
+          padding:50px;
+
+}
+#ButtonGiris,#ButtonKaydol,#ButtonGeri,#girisgeri,#Buttononay
+{
+ border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    padding: 5PX;
+    outline: none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left:5px;
+    position:relative;
+    left:75px;
+    margin-top:15px;
+    top: 0px;
+}
+#TextBoxkullaniciadi, #TextBoxkullanicisifre,#TextBoxEposta,#TextBoxtelNo
+{
+   border-radius:5px;
+   border:none;
+   outline:none;
+   padding-left:3px;
+   height:20px;
+}
+.kayitbody
+{
+    width:100%;
+    height:100%;
+    background-image:url("resimler/peugeotresim3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.girisbody
+{
+    width:100%;
+    height:100%;
+    background-image:url("resimler/peugeotresim5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.isim
+{
+    color:#3c3947;
+    font-size:20px;
+    text-align:center;
+    font-family:Arial;
+    font-weight:600;
+    margin-top:40px;
+}
+.arac1
+{
+   border:1px solid lightgrey;
+   width:23%;
+   height:350px;
+   float:left;
+   margin-left:0.1px;
+}
+.resim
+{
+    width:76%;
+    height:40%;
+    margin-left:10%;
+    float:left;
+    margin-top:40px;
+}
+.resim img
+{
+    width:100%;
+    height:100%;
+    
+}
+#FileUpload1
+{
+    position:absolute;
+}
